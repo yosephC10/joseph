@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AdidasPe</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1></h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIXctj-LfdI657ouvXasY2qmf9jkgY9IqOLLtr44n-AA&s">
+    </header>
+
+    <div class="container-title" style="font-size: 20px; font-weight: bold;">Zapatillas</div>
+
+
+    <main>
+        <div class="container-img">
+            <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/443d417864b24e44b6d1aeec00914d45_9366/Zapatillas_adidas_Grand_Court_Cloudfoam_Comfort_Blanco_GW9199_09_standard.jpg"
+                alt="imagen-producto" />
+        </div>
+        <div class="container-info-product">
+            <div class="container-price">
+                <span style="font-weight: bold; font-size: 30px;">S/237.00</span>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+            <div class="container-details-product">
+                <div class="form-group">
+                    <label for="colour">Color</label>
+                    <select name="colour" id="colour">
+                        <option disabled selected value="">
+                            Escoge una opción
+                        </option>
+                        <option value="rojo">Rojo</option>
+                        <option value="blanco">Blanco</option>
+                        <option value="beige">Beige</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="size">Talla</label>
+                    <select name="size" id="size">
+                        <option disabled selected value="">
+                            Escoge una opción
+                        </option>
+                        <option value="40">40</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                        <Option value="41">41</Option>
+                    </select>
+                </div>
+                <button class="btn-clean">Limpiar</button>
+            </div>
+
+            <div class="container-add-cart">
+                <div class="container-quantity">
+                    <input type="number" placeholder="1" value="1" min="1" class="input-quantity" />
+                    <div class="btn-increment-decrement">
+                        <i class="fa-solid fa-chevron-up" id="increment"></i>
+                        <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                    </div>
+                </div>
+                <button class="btn-add-to-cart">
+                    <i class="fa-solid fa-plus"></i>
+                    Añadir al carrito
+                </button>
+            </div>
+
+            <div class="container-description">
+                <div class="title-description">
+                    <h4>Descripción</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-description">
+                    <p>
+                        SUPERSTAR ORIGINALS:
+                        Creadas para el básquet pero adoptadas por el hip-hop y el skate, las clásicas Superstar de
+                        cuero cambiaron las reglas del juego desde que salieron de las canchas. Con sus 3 Tiras
+                        dentadas, la icónica puntera con relieve y el logo cuadrado, son sin duda uno de los modelos
+                        Originals icónicos.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-additional-information">
+                <div class="title-additional-information">
+                    <h4>Información adicional</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-additional-information hidden">
+                    <p>Detalles:</p>
+                    <p>
+                        Sistema de amarre de pasadores /
+                        Exterior de cuero /
+                        Zapatillas de cuero icónicas /
+                        Suela de caucho /
+                        Color del artículo: Cloud White / Core Black / Cloud White/
+                        Número de artículo: EG4958
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-reviews">
+                <div class="title-reviews">
+                    <h4>Reseñas</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-reviews hidden">
+                    <p>UN DISEÑO ICÓNICO:
+                        Por más de 50 años las zapatillas adidas Superstar han sido las preferidas de las leyendas del
+                        mundo del deporte y de las calles, conectando creadores con culturas.</p>
+                </div>
+            </div>
+
+            <div class="container-social">
+                <span>Compartir</span>
+                <div class="container-buttons-social">
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="container-related-products">
+        <h2>Productos Relacionados</h2>
+        <div class="card-list-products" style="display: flex; justify-content: center;">
+            <div class="card" style="margin: 10px;">
+                <div class="card-img" style="width: 300px; overflow: hidden;">
+                    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/feb4f8b284754981aa09005e76a8bbd6_9366/Bota_de_futbol_X_Crazyfast_Club_versatil_Amarillo_IG0618_22_model.jpg"
+                        alt="producto-1" style="width: 100%;" />
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>BOTA DE FÚTBOL X CRAZYFAST CLUB VERSÁTIL</h3>
+                        <p class="category">TERRENO FIRME_PASTO SINTETICO</p>
+                    </div>
+                    <div class="price">S/198.99</div>
+                </div>
+            </div>
+        
+            <div class="card" style="margin: 10px;">
+                <div class="card-img" style="width: 300px; overflow: hidden;">
+                    <img src="https://realplaza.vtexassets.com/arquivos/ids/34038750-800-auto?v=638290970944100000&width=800&height=auto&aspect=true"
+                        alt="producto-3" style="width: 100%;" />
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Zapatillas de Futbol para Hombre Hp2508 Deportivo Ii Fxg Blanco</h3>
+                        <p class="category">CAMPO SINTETICO</p>
+                    </div>
+                    <div class="price" style="font-weight: bold;">S/355.00</div>
+                </div>
+            </div>
+        
+            <div class="card" style="margin: 10px;">
+                <div class="card-img" style="width: 300px; overflow: hidden;">
+                    <img src="https://www.futbolemotion.com/imagescontenidos/lanzamientos/adidas-x-speedportal/owl-fondos-speedtrailok/1-movil.jpg"
+                        alt="producto-3" style="width: 100%;" />
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>BOTA ADIDAS X SPEEDPORTAL + AG</h3>
+                        <p class="category">NEW X SPEEDPORTAL</p>
+                    </div>
+                    <div class="price" style="font-weight: bold;">S/169.99</div>
+                </div>
+            </div>
+        
+            <div class="card" style="margin: 10px;">
+                <div class="card-img" style="width: 300px; overflow: hidden;">
+                    <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/d915da512cd345d3b5630b727a054f79_9366/chimpunes-x-crazyfast-elite-terreno-firme.jpg"
+                        alt="producto-3" style="width: 100%;" />
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>CHIMPUNES X CRAZYFAST ELITE TERRENO FIRME</h3>
+                        <p class="category">***UNISEX, HORMA GRANDE***</p>
+                    </div>
+                    <div class="price" style="font-weight: bold;">S/824.00</div>
+                </div>
+            </div>
+        </div>
+        
+
+    
+    </section>
+
+    <footer>
+        <p>Encuentra a tu equipo favorito</p>
+        <header>
+            <h1></h1>
+            <div style="text-align: center;">
+                <a href="#"><img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/PICKER_FPF_LOGO_1_2ecb7854c4.png"></a>
+                <a href="#"><img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/cristal_pe_d6dcce5784.png"></a>
+                <a href="#"><img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/river_picker_d_6ff992d997.png"></a>
+                <a href="#"><img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/boca_picker_d_d79ba1ad5a.png"></a>
+                <a href="#"><img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/arsenal_d_34cda16867.png"></a>
+                <a href="#"><img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/realmadrid_d_25938de7d8.png"></a>
+                <a href="#"><img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/manchester_d_44765e0ca4.png"></a>
+                <a href="#"><img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/juventus_d_29d6017607.png"></a>
+                <a href="#"><img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/bayer_d_3b14548aff.png"></a>
+            </div>
+            
+        </header>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+<p style="font-size: x-large;">¿Aún te interesa?</p>
+<div style="text-align: center;">
+
+    <style>
+        .product-container {
+            position: relative;
+            display: inline-block;
+            width: 288px;
+            margin: 10px;
+            transition: transform 0.3s; /* Transición suave al agrandar */
+            cursor: pointer; /* Cambia el cursor a mano al pasar por encima */
+        }
+    
+        .product-container:hover {
+            transform: scale(1.05); /* Agrandar al 105% cuando se señala */
+        }
+    
+        .product-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+    
+    <a href="#" class="product-container">
+        <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/c8ba9fed910a44abb0ca268e1a2dbb64_9366/Zapatillas_Handball_Spezial_Blanco_IE3403_01_standard.jpg" alt="Zapatillas Superstar Blanco" style="width: 100%; height: auto;">
+        <div class="product-info">Zapatillas Superstar Blanco (S/199.00)</div>
+    </a>
+    
+    <a href="#" class="product-container">
+        <img src="https://falabella.scene7.com/is/image/FalabellaPE/20175219_1?wid=1500&hei=1500&qlt=70" alt="Pelota de fútbol" style="width: 100%; height: auto;">
+        <div class="product-info">Pelota de fútbol CHAMPIONS LEAGUE 23/24 (S/89.90)</div>
+    </a>
+    
+    <a href="#" class="product-container">
+        <img src="https://www.cienporcientofutbol.cl/cdn/shop/files/X_Crazyfast_Messi_League_Firm_Gr_7_615x615.jpg?v=1709041771" alt="Zapatillas X Crazyfast Messi" style="width: 100%; height: auto;">
+        <div class="product-info">Zapatillas X Crazyfast Messi (S/259)</div>
+    </a>
+    
+    <a href="#" class="product-container">
+        <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5ae668a4e81749d6aa8c88dfee7c9882_9366/Zapatillas_Everyset_Negro_ID4989_01_standard.jpg" alt="Zapatillas Everyset Negras" style="width: 100%; height: auto;">
+        <div class="product-info">Zapatillas Everyset Negras (S/249)</div>
+    </a>
+    
+    <a href="#" class="product-container">
+        <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/2b8ff35511f84455b7d60e9c37430b64_9366/Polo_con_Cuello_de_Concentracion_de_La_Seleccion_Peruana_2023_Rojo_GC6419_01_laydown.jpg" alt="Polo de la Selección Peruana" style="width: 100%; height: auto;">
+        <div class="product-info">Polo de la Selección Peruana CAMISERO (S/120.99)</div>
+    </a>
+    
+    <a href="#" class="product-container">
+        <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/be62cccb3bbc49258f51ac7c01064228_9366/Zapatillas_Handball_Spezial_Azul_FX5675_01_standard.jpg" alt="Zapatillas Handball Spezial Azul" style="width: 100%; height: auto;">
+        <div class="product-info">Zapatillas Handball Spezial Azul (S/321)</div>
+    </a>
+</div>
+
+</div>
+
+    
+<div style="text-align: center;">
+    <img src="https://brand.assets.adidas.com/image/upload/f_gif,fl_lossy,q_auto/pe_feds_brand_ss24_sustain_hp_card_d_8d23c10b4e.gif" alt="Imagen GIF" style="width: 288px; margin: 15px;">
+    <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/preactive_adizero_tc_d_ad5b8a6874.jpg" alt="Imagen Adidas" style="width: 288px; margin: 15px;">
+    <img src="https://brand.assets.adidas.com/image/upload/f_gif,fl_lossy,q_auto/originals_ss24_adicolor_lgreen_blue_hp_tcc_d_2ecda5216d.gif" alt="Imagen GIF" style="width: 288px; margin: 15px;">
+</div>
+    <div style="text-align: left;">
+        <button class="btn-collections" style="font-size: larger; margin-bottom: 10px;">Novedades</button>
+        <br>
+        <button class="btn-collections" style="font-size: larger; margin-bottom: 10px;">Colecciones</button>
+        <br>
+        <button class="btn-collections" style="font-size: larger;">Exclusivos Miembros</button>
+    </div>
+    
+
